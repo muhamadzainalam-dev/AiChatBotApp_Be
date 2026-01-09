@@ -27,7 +27,6 @@ const {
   addMessage,
   clearChat,
 } = require("./Controllers/ScheduleContollers/ChatHistoryCon");
-const ScheduleNotifier = require("./Controllers/ScheduleContollers/ScheduleNotifier");
 
 dotenv.config();
 const server = express();
